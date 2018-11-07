@@ -1,0 +1,143 @@
+body {
+	margin: 0;
+	padding-top: 70px;
+	background: linear-gradient(#2C5364, #203A43, #0F2027);
+	height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-family: Verdana;
+}
+
+a:active {
+	color: blue;
+}
+
+.container{
+	padding: 0px 20px 10px 20px;
+}
+
+.topnav {
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: Calibri;
+}
+
+.brand {
+	float: left;
+	font-family: Bungee, arial;
+	margin: -10px;
+	padding: 0;
+	padding-left: 10px;
+}
+
+.topnav li {
+    float: right;
+}
+
+.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    transition: .2s ease;
+}
+
+.topnav li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #111;
+}
+
+li a.active:hover {
+	background-color: #111;
+}
+
+.profile-pic {
+	margin: 10px; 
+	padding: 10px;
+	margin-bottom: -5px; 
+	border-radius: 100%; 
+	border-style: solid; 
+	border-width: 10px;
+	width: 300px;
+	height: 300px;
+	text-decoration: none;
+}
+
+.center {
+	margin: auto;
+	/*width: 50%;*/
+	text-align: center;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    background-color: black;
+}
+
+.faded-img {
+	opacity: 0.3;
+	transition: .2s ease;
+}
+
+.faded-img:hover {
+	opacity: 1;
+}
+
+.img-link {
+	color: #112128;
+}
+
+.img-link:hover {
+	color: white;
+}
+
+.button {
+	background-color: transparent;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid;
+    border-color: 10px;
+    border-radius: 10px;
+    transition: 0.4s ease;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.button:hover {
+	background-color: white;
+	color: black;
+}
+
+p.big {
+    line-height: 1.8;
+}
+
+p.description {
+	text-align: left; margin-right: 40px; margin-left: 40px;
+	line-height: 1.5;
+}
